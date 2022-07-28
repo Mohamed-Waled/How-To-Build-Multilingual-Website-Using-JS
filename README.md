@@ -256,7 +256,7 @@ function onLoadLanguages() {
 }
 ```
 
-**And thats it now when you click the button the languages will change and when you restart you website it will remain the same even if you changes the session**
+**And thats it now when you click the button the languages will change and when you restart you website it will remain the same even if you changes the session. You can try this in [this website here](https://github.com/Mohamed-Waled/webSite)**
 
 ## Author
 
@@ -266,5 +266,5 @@ function onLoadLanguages() {
 
 ## Contributes
 
-If you need an English Arabic, Arabic English Translator feel free to call Mr.[Mohamed Abdallah](https://www.linkedin.com/in/mohamed-abdallah-a94158222/) for any business translation deals, You can reach him [from here](mailto:mohammedabdallah.badr@gmail.com)
+If you need an English Arabic, Arabic English Translator feel free to call Mr.[Mohamed Abdallah](https://www.linkedin.com/in/mohamed-abdallah-a94158222/), He translated this website [here](https://github.com/Mohamed-Waled/webSite) for me check it out in Arabic, He is so professional and respects his deadlines, For any business translation deals, You can reach him [from here](mailto:mohammedabdallah.badr@gmail.com)
 
