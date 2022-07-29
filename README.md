@@ -192,15 +192,13 @@ function changeLanguagesButton() {
 
   checkBoxlang.addEventListener("change", () => {
     if (checkBoxlang.checked) {
+      translate("ar");
       body.classList.add("rtl");
       body.setAttribute("dir", "rtl");
-      window.location.reload();
-      translate("ar");
     } else {
+      translate("en");
       body.classList.remove("rtl");
       body.removeAttribute("dir", "rtl");
-      window.location.reload();
-      translate("en");
     }
   });
   });
@@ -242,15 +240,15 @@ function onLoadLanguages() {
 
   window.addEventListener("load", () => {
     if (isArabic === "true") {
+      translate("ar");
       body.classList.add("rtl");
       body.setAttribute("dir", "rtl");
       checkBoxlang.checked = true;
-      translate("ar");
     } else {
+      translate("en");
       body.classList.remove("rtl");
       body.removeAttribute("dir", "rtl");
       checkBoxlang.checked = false;
-      translate("en");
     }
   });
 }
